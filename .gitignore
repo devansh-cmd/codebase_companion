@@ -1,0 +1,7 @@
+#"Libraries"#
+venv/
+__pycache__/
+*.pyc
+.env
+data/papers/
+.ipynb_checkpoints/
