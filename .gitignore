@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 .env
 data/papers/
-.ipynb_checkpoints/
+.ipynb_checkpoints/data/extracted/
