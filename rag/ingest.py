@@ -8,5 +8,5 @@ PDF_FOLDER = REPO_ROOT/ "data" / "papers"
 for pdf_path in PDF_FOLDER.glob("*.pdf"):
     with pdfplumber.open(pdf_path) as pdf:
         print(f"Processing: {pdf_path.name}") 
-        print(pdf.pages[0].extract_text()[:100]) # acces first page and print first 100 characters
+        print(pdf.pages[0].extract_text()[:100]) # access first page and print first 100 characters
         
