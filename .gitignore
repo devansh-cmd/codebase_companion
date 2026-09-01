@@ -5,3 +5,4 @@ __pycache__/
 .env
 data/papers/
 .ipynb_checkpoints/data/extracted/
+CLAUDE.md
